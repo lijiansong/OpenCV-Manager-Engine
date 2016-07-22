@@ -4,12 +4,14 @@ This archive is the source code of OpenCV Manger which refer to OpenCV tutorial,
 
 I have been coding an platform recently,which can manage library binaries on end users devices,such as android,iOS and so on.
 
-The platform is a Service Store,which just like the app store in android,where delelopers develop their own apps and deploy them onto the app store,and users can download the app that they like and install it on his or her devices.Therefore,android's app store can be treated as an ecological system.
+The platform is a Service Store,which just like the app store in android,where delelopers develop their own apps and deploy them
+onto the app store,and users can download the app that they like and install it on his or her devices.Therefore,android's app 
+store can be treated as an ecological system.
 
-however,our Service Store is also an ecological system,where the Service Manufacture or Lib Developers can develop their own Cloud Services or Native Services,
-and users can connect to the service they like on their end devices,such as Voice Recognition Service,Face Detection Service and so on.The technical architecture of the platform is shown below.
+However,our Service Store is also an ecological system,where the Service Manufacture or Lib Developers can develop their own Cloud Services or Native Services,and users can connect to the service they like on their end devices,such as *Voice Recognition Service*,*Face Detection Service* and so on.The technical architecture of the platform is shown below.
 
-** Tech Architecture**
+** Technical Architecture**
+
 ![image](https://github.com/lijiansong/OpenCV-Manager-Engine/blob/master/screenshot/arch.png)
 
 Introduction
