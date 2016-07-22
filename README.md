@@ -10,7 +10,7 @@ store can be treated as an ecological system.
 
 However, our Service Store is also an ecological system, where the Service Manufacture or Lib Developers can develop their own Cloud Services or Native Services, and users can connect to the service they like on their end devices, such as *Voice Recognition Service*, *Face Detection Service* and so on. The technical architecture of the platform is shown below.
 
-** Technical Architecture**
+**Technical Architecture**
 
 ![image](https://github.com/lijiansong/OpenCV-Manager-Engine/blob/master/screenshot/arch.png)
 
