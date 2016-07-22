@@ -2,7 +2,7 @@
 ===
 This archive is the source code of OpenCV Manger which refer to OpenCV tutorial,implemented by Java,on the android platform.
 
-I have been coding an platform recently,which can manage library binaries on end users devices,such as android,iOS and so on.
+I have been coding an platform recently, which can manage library binaries on end users devices, such as android, iOS and so on.
 
 The platform is a Service Store, which just like the app store in android, where delelopers develop their own apps and deploy them
 onto the app store, and users can download the app that they like and install it on his or her devices. Therefore, android's app 
@@ -19,11 +19,10 @@ On Andrioid platform, it provide [*AIDL*](https://developer.android.com/guide/co
 Introduction
 ---
 Refer to the OpenCV Manager Mauual.
-
-OpenCV Manager is an Android service targeted to manage OpenCV library binaries on end users devices. It allows sharing the OpenCV dynamic libraries between applications on the same device. The Manager provides the following benefits:
-- Less memory usage. All apps use the same binaries from service and do not keep native libs inside themselves;
-- Hardware specific optimizations for all supported platforms;
-- Trusted OpenCV library source. All packages with OpenCV are published on Google Play market;
+Just like the OpenCV Manager, the Engine Manager is also an Android service targeted to manage OpenCV library binaries on end users devices. It allows sharing the dynamic libraries between applications on the same device, such as Face Detection lib, Voice Recognition lib. The Engine Manager provides the following benefits:
+- Less memory usage. All apps use the same binaries from service and do not have to keep the native libs inside themselves;
+- Hardware specific optimizations for all supported platforms, such as the different CPU-Arch of Android platform;
+- Once the Engine is released, all the Service Libraries will be trusted library source. All packages with OpenCV should be published on Google Play market or Apple's App Store;
 - Regular updates and bug fixes;
 
 
